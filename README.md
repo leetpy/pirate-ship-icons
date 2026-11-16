@@ -3,6 +3,7 @@
 62 account provider icons for Pirate Ship. Stable IDs, names, groups, keywords,
 sources and direct image URLs are listed in [icons.json](icons.json).
 
+- Gallery: https://leetpy.github.io/pirate-ship-icons/
 - Catalog: https://leetpy.github.io/pirate-ship-icons/icons.json
 - Image URL example: https://leetpy.github.io/pirate-ship-icons/bank-icbc.png
 - Third-party notices: [LICENSES.txt](LICENSES.txt)
