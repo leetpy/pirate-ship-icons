@@ -378,6 +378,39 @@
     "url": "https://leetpy.github.io/pirate-ship-icons/brand-oneplus.png"
   },
   {
+    "id": "brand:xtc",
+    "label": "小天才",
+    "group": "品牌",
+    "keywords": "小天才 电话手表 XTC 儿童手表",
+    "asset": "assets/account_icons/brand-xtc.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0ddc9311ff58f48e5ad51bd83fe5cae3547e7f17c",
+    "sourcePage": "https://app.mi.com/details?id=com.xtc.watch",
+    "sha256": "8a3ab6d63b98a68bc808348730c12f2673c54a5c99cc8fd2cde36e86a766bc3a",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-xtc.png"
+  },
+  {
+    "id": "brand:iflytek",
+    "label": "科大讯飞",
+    "group": "品牌",
+    "keywords": "讯飞 iFLYTEK 人工智能 语音",
+    "asset": "assets/account_icons/brand-iflytek.png",
+    "source": "https://edu.iflytek.com/Public/Uploads/uploadfile/images/20230313/comlogo02.svg",
+    "sourcePage": "https://edu.iflytek.com/",
+    "sha256": "58294c57e718cd2aba2cfa90719200f5b398c83d8676a15cca1f222d10bf67a7",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-iflytek.png"
+  },
+  {
+    "id": "brand:xueersi",
+    "label": "学而思",
+    "group": "品牌",
+    "keywords": "学而思 Xueersi XES 素养 教育",
+    "asset": "assets/account_icons/brand-xueersi.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/065f460a2ce9b4697b28f9f44ac0793b2c16a0556",
+    "sourcePage": "https://app.mi.com/details?id=com.xes.jazhanghui.activity",
+    "sha256": "a9ae7a64cff4b4b602c070f1ed440b31957c97985cd89151081e4bb945f7b3f5",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-xueersi.png"
+  },
+  {
     "id": "brand:blizzard",
     "label": "暴雪战网",
     "group": "游戏",

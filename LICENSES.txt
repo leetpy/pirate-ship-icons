@@ -87,3 +87,10 @@ listings instead of low-resolution website favicons. Listing URLs and exact
 image URLs are recorded in sources.json and tool/cloud_icons.json.
 Copyright and trademarks belong to the respective providers; these images are
 used solely for account identification, with no open-source license asserted.
+
+Additional brand artwork (account identification only):
+XTC and Xueersi: 512x512 app icons from their Xiaomi App Store listings.
+iFLYTEK: vector emblem from the official iFLYTEK Education website, rendered
+at 512x512 on a white square. Source URLs are recorded in icons.json.
+Copyright and trademarks belong to their respective owners; no open-source
+license is asserted for these brand marks.
