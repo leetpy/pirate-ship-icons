@@ -458,9 +458,9 @@
     "group": "网盘",
     "keywords": "百度网盘 Baidu Pan",
     "asset": "assets/account_icons/cloud-baidu.png",
-    "source": "https://nd-static.bdstatic.com/m-static/wp-brand/favicon.ico",
-    "sourcePage": "https://pan.baidu.com",
-    "sha256": "27dcd63767da8fdf519e8545c21610fde78f5b09e5fc1f0ca5a142e4cd784337",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/02d849508fcb94e6a9a36a095e46b048c68284977",
+    "sourcePage": "https://app.mi.com/details?id=com.baidu.netdisk",
+    "sha256": "830526ba7039fb1febb3c8e7ea863cd81418ab36ad13c87207fdf69240cab911",
     "url": "https://leetpy.github.io/pirate-ship-icons/cloud-baidu.png"
   },
   {
@@ -469,9 +469,9 @@
     "group": "网盘",
     "keywords": "阿里云盘 阿里云盘 Alipan Aliyun",
     "asset": "assets/account_icons/cloud-aliyun.png",
-    "source": "https://www.alipan.com/favicon.ico",
-    "sourcePage": "https://www.alipan.com",
-    "sha256": "348d570ef2bd12fbc5673e4039fc7f6cad1889f6f1fa43147dc4cece66b6e82b",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0cb19473cbce5479cad711643e06cb0701b2f4e9a",
+    "sourcePage": "https://app.mi.com/details?id=com.alicloud.databox",
+    "sha256": "4494b15b5c53bcca5741e7b4b9f4d0846bca4e869473798bb9c9bb9b577692ce",
     "url": "https://leetpy.github.io/pirate-ship-icons/cloud-aliyun.png"
   },
   {
@@ -491,9 +491,9 @@
     "group": "网盘",
     "keywords": "天翼云盘 189",
     "asset": "assets/account_icons/cloud-tianyi.png",
-    "source": "https://cloud.dlife.cn/web/main/logo.ico",
-    "sourcePage": "https://cloud.189.cn",
-    "sha256": "494e0fd9ef8608f8351eba3bb9d92d4bde2f575e9d8f06688edbc6a168ef067a",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0c12056e150834a35aca8d9590ff99809aecfd953",
+    "sourcePage": "https://app.mi.com/details?id=com.cn21.ecloud",
+    "sha256": "b0d218baefe6bfdc0e2f42ab3e868c3dd9c7663939a9cb04c0d34b6e4a70b6bc",
     "url": "https://leetpy.github.io/pirate-ship-icons/cloud-tianyi.png"
   },
   {

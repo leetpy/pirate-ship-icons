@@ -82,5 +82,8 @@ Baidu Netdisk, Alipan, Quark, Tianyi, China Mobile, China Unicom, 115, Xunlei,
 123 Cloud, Nutstore, Weiyun, Lanzou and Ctfile. Original sources and SHA-256
 checksums are recorded in sources.json and tool/cloud_icons.json.
 ICO sources are converted to PNG; PNG artwork is bundled without modification.
+Baidu Netdisk, Alipan and Tianyi use 512x512 app icons from their Xiaomi App Store
+listings instead of low-resolution website favicons. Listing URLs and exact
+image URLs are recorded in sources.json and tool/cloud_icons.json.
 Copyright and trademarks belong to the respective providers; these images are
 used solely for account identification, with no open-source license asserted.
