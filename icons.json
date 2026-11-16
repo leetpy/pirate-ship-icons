@@ -1,0 +1,598 @@
+[
+  {
+    "id": "bank:icbc",
+    "label": "工商银行",
+    "group": "银行",
+    "keywords": "中国工商银行 工行 ICBC",
+    "asset": "assets/account_icons/bank-icbc.png",
+    "source": "@icongo/bl@1.2.0:BLIcbcRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-icbc.png"
+  },
+  {
+    "id": "bank:abc",
+    "label": "农业银行",
+    "group": "银行",
+    "keywords": "中国农业银行 农行 ABC",
+    "asset": "assets/account_icons/bank-abc.png",
+    "source": "@icongo/bl@1.2.0:BLAbchinaRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-abc.png"
+  },
+  {
+    "id": "bank:boc",
+    "label": "中国银行",
+    "group": "银行",
+    "keywords": "中行 BOC",
+    "asset": "assets/account_icons/bank-boc.png",
+    "source": "@icongo/bl@1.2.0:BLBocRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-boc.png"
+  },
+  {
+    "id": "bank:ccb",
+    "label": "建设银行",
+    "group": "银行",
+    "keywords": "中国建设银行 建行 CCB",
+    "asset": "assets/account_icons/bank-ccb.png",
+    "source": "@icongo/bl@1.2.0:BLCcbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-ccb.png"
+  },
+  {
+    "id": "bank:bocom",
+    "label": "交通银行",
+    "group": "银行",
+    "keywords": "交行 交通 BOCOM COMM",
+    "asset": "assets/account_icons/bank-bocom.png",
+    "source": "@icongo/bl@1.2.0:BLBankcommRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-bocom.png"
+  },
+  {
+    "id": "bank:psbc",
+    "label": "邮储银行",
+    "group": "银行",
+    "keywords": "中国邮政储蓄银行 邮储 PSBC",
+    "asset": "assets/account_icons/bank-psbc.png",
+    "source": "@icongo/bl@1.2.0:BLPsbcRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-psbc.png"
+  },
+  {
+    "id": "bank:cmb",
+    "label": "招商银行",
+    "group": "银行",
+    "keywords": "招行 招商 CMB",
+    "asset": "assets/account_icons/bank-cmb.png",
+    "source": "@icongo/bl@1.2.0:BLCmbchinaRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-cmb.png"
+  },
+  {
+    "id": "bank:citic",
+    "label": "中信银行",
+    "group": "银行",
+    "keywords": "中信 CITIC",
+    "asset": "assets/account_icons/bank-citic.png",
+    "source": "@icongo/bl@1.2.0:BLCiticbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-citic.png"
+  },
+  {
+    "id": "bank:spdb",
+    "label": "浦发银行",
+    "group": "银行",
+    "keywords": "上海浦东发展银行 浦发 SPDB",
+    "asset": "assets/account_icons/bank-spdb.png",
+    "source": "@icongo/bl@1.2.0:BLSpdbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-spdb.png"
+  },
+  {
+    "id": "bank:cib",
+    "label": "兴业银行",
+    "group": "银行",
+    "keywords": "兴业 CIB",
+    "asset": "assets/account_icons/bank-cib.png",
+    "source": "@icongo/bl@1.2.0:BLCibRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-cib.png"
+  },
+  {
+    "id": "bank:cmbc",
+    "label": "民生银行",
+    "group": "银行",
+    "keywords": "中国民生银行 民生 CMBC",
+    "asset": "assets/account_icons/bank-cmbc.png",
+    "source": "@icongo/bl@1.2.0:BLCmbcRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-cmbc.png"
+  },
+  {
+    "id": "bank:ceb",
+    "label": "光大银行",
+    "group": "银行",
+    "keywords": "中国光大银行 光大 CEB",
+    "asset": "assets/account_icons/bank-ceb.png",
+    "source": "@icongo/bl@1.2.0:BLCebbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-ceb.png"
+  },
+  {
+    "id": "bank:pingan",
+    "label": "平安银行",
+    "group": "银行",
+    "keywords": "平安 口袋银行 Ping An PAB",
+    "asset": "assets/account_icons/bank-pingan.png",
+    "source": "@icongo/bl@1.2.0:BLPinganRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-pingan.png"
+  },
+  {
+    "id": "bank:cgb",
+    "label": "广发银行",
+    "group": "银行",
+    "keywords": "广发 GDB CGB",
+    "asset": "assets/account_icons/bank-cgb.png",
+    "source": "@icongo/bl@1.2.0:BLCgbchinaRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-cgb.png"
+  },
+  {
+    "id": "bank:hxb",
+    "label": "华夏银行",
+    "group": "银行",
+    "keywords": "华夏 HXB",
+    "asset": "assets/account_icons/bank-hxb.png",
+    "source": "@icongo/bl@1.2.0:BLHxbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-hxb.png"
+  },
+  {
+    "id": "bank:czb",
+    "label": "浙商银行",
+    "group": "银行",
+    "keywords": "浙商 CZB",
+    "asset": "assets/account_icons/bank-czb.png",
+    "source": "@icongo/bl@1.2.0:BLCzbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-czb.png"
+  },
+  {
+    "id": "bank:hengfeng",
+    "label": "恒丰银行",
+    "group": "银行",
+    "keywords": "恒丰 HFB",
+    "asset": "assets/account_icons/bank-hengfeng.png",
+    "source": "@icongo/bl@1.2.0:BLHfbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-hengfeng.png"
+  },
+  {
+    "id": "bank:bohai",
+    "label": "渤海银行",
+    "group": "银行",
+    "keywords": "渤海 CBHB",
+    "asset": "assets/account_icons/bank-bohai.png",
+    "source": "@icongo/bl@1.2.0:BLCbhbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-bohai.png"
+  },
+  {
+    "id": "bank:beijing",
+    "label": "北京银行",
+    "group": "银行",
+    "keywords": "北京 BOB",
+    "asset": "assets/account_icons/bank-beijing.png",
+    "source": "@icongo/bl@1.2.0:BLBankofbeijingRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-beijing.png"
+  },
+  {
+    "id": "bank:shanghai",
+    "label": "上海银行",
+    "group": "银行",
+    "keywords": "上海 BOS",
+    "asset": "assets/account_icons/bank-shanghai.png",
+    "source": "@icongo/bl@1.2.0:BLBoscRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-shanghai.png"
+  },
+  {
+    "id": "bank:jiangsu",
+    "label": "江苏银行",
+    "group": "银行",
+    "keywords": "江苏 JSB",
+    "asset": "assets/account_icons/bank-jiangsu.png",
+    "source": "@icongo/bl@1.2.0:BLJsbchinaRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-jiangsu.png"
+  },
+  {
+    "id": "bank:ningbo",
+    "label": "宁波银行",
+    "group": "银行",
+    "keywords": "宁波 NBCB",
+    "asset": "assets/account_icons/bank-ningbo.png",
+    "source": "@icongo/bl@1.2.0:BLNbcbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-ningbo.png"
+  },
+  {
+    "id": "bank:hangzhou",
+    "label": "杭州银行",
+    "group": "银行",
+    "keywords": "杭州 HZB",
+    "asset": "assets/account_icons/bank-hangzhou.png",
+    "source": "@icongo/bl@1.2.0:BLHzbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-hangzhou.png"
+  },
+  {
+    "id": "bank:nanjing",
+    "label": "南京银行",
+    "group": "银行",
+    "keywords": "南京 NJCB",
+    "asset": "assets/account_icons/bank-nanjing.png",
+    "source": "@icongo/bl@1.2.0:BLNjcbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-nanjing.png"
+  },
+  {
+    "id": "bank:guangzhou",
+    "label": "广州银行",
+    "group": "银行",
+    "keywords": "广州 GZB",
+    "asset": "assets/account_icons/bank-guangzhou.png",
+    "source": "@icongo/bl@1.2.0:BLGzcbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-guangzhou.png"
+  },
+  {
+    "id": "bank:chengdu",
+    "label": "成都银行",
+    "group": "银行",
+    "keywords": "成都 BOCD",
+    "asset": "assets/account_icons/bank-chengdu.png",
+    "source": "@icongo/bl@1.2.0:BLBocdRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-chengdu.png"
+  },
+  {
+    "id": "bank:chongqing",
+    "label": "重庆银行",
+    "group": "银行",
+    "keywords": "重庆 CQB",
+    "asset": "assets/account_icons/bank-chongqing.png",
+    "source": "@icongo/bl@1.2.0:BLCqcbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-chongqing.png"
+  },
+  {
+    "id": "bank:changsha",
+    "label": "长沙银行",
+    "group": "银行",
+    "keywords": "长沙 CSCB",
+    "asset": "assets/account_icons/bank-changsha.png",
+    "source": "@icongo/bl@1.2.0:BLCscbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-changsha.png"
+  },
+  {
+    "id": "bank:qingdao",
+    "label": "青岛银行",
+    "group": "银行",
+    "keywords": "青岛 QDCCB",
+    "asset": "assets/account_icons/bank-qingdao.png",
+    "source": "@icongo/bl@1.2.0:BLQdccbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-qingdao.png"
+  },
+  {
+    "id": "bank:tianjin",
+    "label": "天津银行",
+    "group": "银行",
+    "keywords": "天津 TCCB",
+    "asset": "assets/account_icons/bank-tianjin.png",
+    "source": "@icongo/bl@1.2.0:BLBankoftianjinRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-tianjin.png"
+  },
+  {
+    "id": "bank:huishang",
+    "label": "徽商银行",
+    "group": "银行",
+    "keywords": "徽商 HSB",
+    "asset": "assets/account_icons/bank-huishang.png",
+    "source": "@icongo/bl@1.2.0:BLHsbankRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-huishang.png"
+  },
+  {
+    "id": "bank:shrcb",
+    "label": "上海农商银行",
+    "group": "银行",
+    "keywords": "上海农商 农村商业 SHRCB",
+    "asset": "assets/account_icons/bank-shrcb.png",
+    "source": "@icongo/bl@1.2.0:BLSrcbRect",
+    "url": "https://leetpy.github.io/pirate-ship-icons/bank-shrcb.png"
+  },
+  {
+    "id": "brand:chatgpt",
+    "label": "ChatGPT",
+    "group": "品牌",
+    "keywords": "OpenAI GPT 人工智能 聊天",
+    "asset": "assets/account_icons/brand-chatgpt.png",
+    "source": "@lobehub/icons-static-svg@1.101.0:openai",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-chatgpt.png"
+  },
+  {
+    "id": "brand:google",
+    "label": "Google",
+    "group": "品牌",
+    "keywords": "谷歌 Google 账号",
+    "asset": "assets/account_icons/brand-google.png",
+    "source": "@iconify-json/logos@1.2.18:google-icon",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-google.png"
+  },
+  {
+    "id": "brand:apple",
+    "label": "Apple",
+    "group": "品牌",
+    "keywords": "苹果 iPhone iPad iCloud Apple ID",
+    "asset": "assets/account_icons/brand-apple.png",
+    "source": "@iconify-json/simple-icons@1.2.101:apple",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-apple.png"
+  },
+  {
+    "id": "brand:huawei",
+    "label": "华为",
+    "group": "品牌",
+    "keywords": "Huawei 华为 鸿蒙 HarmonyOS",
+    "asset": "assets/account_icons/brand-huawei.png",
+    "source": "@iconify-json/simple-icons@1.2.101:huawei",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-huawei.png"
+  },
+  {
+    "id": "brand:xiaomi",
+    "label": "小米",
+    "group": "品牌",
+    "keywords": "Xiaomi Mi 红米 Redmi HyperOS",
+    "asset": "assets/account_icons/brand-xiaomi.png",
+    "source": "@iconify-json/simple-icons@1.2.101:xiaomi",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-xiaomi.png"
+  },
+  {
+    "id": "brand:vivo",
+    "label": "vivo",
+    "group": "品牌",
+    "keywords": "Vivo 维沃 iQOO OriginOS",
+    "asset": "assets/account_icons/brand-vivo.png",
+    "source": "@iconify-json/simple-icons@1.2.101:vivo",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-vivo.png"
+  },
+  {
+    "id": "brand:oppo",
+    "label": "OPPO",
+    "group": "品牌",
+    "keywords": "Oppo 一加 手机 ColorOS",
+    "asset": "assets/account_icons/brand-oppo.png",
+    "source": "@iconify-json/simple-icons@1.2.101:oppo",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-oppo.png"
+  },
+  {
+    "id": "brand:honor",
+    "label": "荣耀",
+    "group": "品牌",
+    "keywords": "Honor MagicOS",
+    "asset": "assets/account_icons/brand-honor.png",
+    "source": "@iconify-json/simple-icons@1.2.101:honor",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-honor.png"
+  },
+  {
+    "id": "brand:samsung",
+    "label": "三星",
+    "group": "品牌",
+    "keywords": "Samsung Galaxy",
+    "asset": "assets/account_icons/brand-samsung.png",
+    "source": "@iconify-json/simple-icons@1.2.101:samsung",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-samsung.png"
+  },
+  {
+    "id": "brand:oneplus",
+    "label": "一加",
+    "group": "品牌",
+    "keywords": "OnePlus 手机",
+    "asset": "assets/account_icons/brand-oneplus.png",
+    "source": "@iconify-json/simple-icons@1.2.101:oneplus",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-oneplus.png"
+  },
+  {
+    "id": "brand:blizzard",
+    "label": "暴雪战网",
+    "group": "游戏",
+    "keywords": "暴雪 Blizzard Battle.net 战网 魔兽 暗黑 星际",
+    "asset": "assets/account_icons/brand-blizzard.png",
+    "source": "@iconify-json/fa6-brands:battle-net (Font Awesome 6.7.2)",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-blizzard.png"
+  },
+  {
+    "id": "brand:netease",
+    "label": "网易",
+    "group": "游戏",
+    "keywords": "网易 NetEase 163 邮箱 网易游戏",
+    "asset": "assets/account_icons/brand-netease.png",
+    "source": "https://www.neteasegames.com/favicon.ico (PNG conversion)",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-netease.png"
+  },
+  {
+    "id": "brand:ugreen-cloud",
+    "label": "绿联云",
+    "group": "品牌",
+    "keywords": "UGREEN UGNAS UGOS 绿联 私有云 NAS",
+    "asset": "assets/account_icons/brand-ugreen-cloud.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0b10e42155b344547ae58ed286ade60a17d1725be",
+    "sourcePage": "https://app.mi.com/details?id=com.ugreen.pro",
+    "sourceVersion": "1.20.12",
+    "verifiedAt": "2026-10-30",
+    "sha256": "eedb2186581da3e7bedab446af2f69931e73b6cd8ec6df81509cb269c20eb597",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-ugreen-cloud.png"
+  },
+  {
+    "id": "brand:tplink",
+    "label": "TP-Link",
+    "group": "品牌",
+    "keywords": "TP-Link tplink TP Link 普联 路由器 网络",
+    "asset": "assets/account_icons/brand-tplink.png",
+    "source": "https://static.tp-link.com/assets/images/icon/favicon-152px.png",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-tplink.png"
+  },
+  {
+    "id": "brand:360",
+    "label": "360",
+    "group": "品牌",
+    "keywords": "奇虎 Qihoo 360 安全卫士 账号",
+    "asset": "assets/account_icons/brand-360.png",
+    "source": "https://p5.ssl.qhimg.com/d/inn/d265529da7c1/logo.png (account-center emblem crop: 96x96 at x=0,y=56)",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-360.png"
+  },
+  {
+    "id": "brand:ehuiban",
+    "label": "鄂汇办",
+    "group": "品牌",
+    "keywords": "湖北政务服务 湖北 楚天云 Ehuiban EHB",
+    "asset": "assets/account_icons/brand-ehuiban.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/05e6194632f4943ee02551a814c7c3f05cee70889",
+    "sourcePage": "https://app.mi.com/details?id=cn.cty.hbzw",
+    "sourceVersion": "4.4.1",
+    "verifiedAt": "2026-10-30",
+    "sha256": "fd8f2b08db477cff0e0a9ed2ec796b307adbcc22d29ecb40c2ff44925865ccd8",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-ehuiban.png"
+  },
+  {
+    "id": "brand:income-tax",
+    "label": "个人所得税",
+    "group": "品牌",
+    "keywords": "个税 个税申报 国家税务总局 税务 IIT Income Tax",
+    "asset": "assets/account_icons/brand-income-tax.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/06a704a0c2334cd623496ec95ee6fb6018041d12e",
+    "sourcePage": "https://app.mi.com/details?id=cn.gov.tax.its",
+    "sourceVersion": "2.3.5",
+    "verifiedAt": "2026-10-30",
+    "sha256": "2691d343e183c32c5b242c06aad9a5a5f5402194fab3083c632257d3c8e6cc27",
+    "url": "https://leetpy.github.io/pirate-ship-icons/brand-income-tax.png"
+  },
+  {
+    "id": "cloud:baidu",
+    "label": "百度网盘",
+    "group": "网盘",
+    "keywords": "百度网盘 Baidu Pan",
+    "asset": "assets/account_icons/cloud-baidu.png",
+    "source": "https://nd-static.bdstatic.com/m-static/wp-brand/favicon.ico",
+    "sourcePage": "https://pan.baidu.com",
+    "sha256": "27dcd63767da8fdf519e8545c21610fde78f5b09e5fc1f0ca5a142e4cd784337",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-baidu.png"
+  },
+  {
+    "id": "cloud:aliyun",
+    "label": "阿里云盘",
+    "group": "网盘",
+    "keywords": "阿里云盘 阿里云盘 Alipan Aliyun",
+    "asset": "assets/account_icons/cloud-aliyun.png",
+    "source": "https://www.alipan.com/favicon.ico",
+    "sourcePage": "https://www.alipan.com",
+    "sha256": "348d570ef2bd12fbc5673e4039fc7f6cad1889f6f1fa43147dc4cece66b6e82b",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-aliyun.png"
+  },
+  {
+    "id": "cloud:quark",
+    "label": "夸克网盘",
+    "group": "网盘",
+    "keywords": "夸克网盘 Quark",
+    "asset": "assets/account_icons/cloud-quark.png",
+    "source": "https://image.quark.cn/s/uae/g/3o/broccoli/resource/202602/f6439020-13b4-11f1-9342-3944993de2f6.png",
+    "sourcePage": "https://pan.quark.cn",
+    "sha256": "9cb860d7aaab5f5d834c7508ae05d2567cd3d650c907e3ebccf9a4ae32507971",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-quark.png"
+  },
+  {
+    "id": "cloud:tianyi",
+    "label": "天翼云盘",
+    "group": "网盘",
+    "keywords": "天翼云盘 189",
+    "asset": "assets/account_icons/cloud-tianyi.png",
+    "source": "https://cloud.dlife.cn/web/main/logo.ico",
+    "sourcePage": "https://cloud.189.cn",
+    "sha256": "494e0fd9ef8608f8351eba3bb9d92d4bde2f575e9d8f06688edbc6a168ef067a",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-tianyi.png"
+  },
+  {
+    "id": "cloud:mobile",
+    "label": "移动云盘",
+    "group": "网盘",
+    "keywords": "移动云盘 和彩云 139",
+    "asset": "assets/account_icons/cloud-mobile.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/02aa7730de2ea4358944aa0b76fbc325fb029fcc0",
+    "sourcePage": "https://yun.139.com",
+    "sha256": "e5eeac7dbc818c1e3b903322d01b42a961e12d0dfeff1b2215a25fe3e151d19b",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-mobile.png"
+  },
+  {
+    "id": "cloud:unicom",
+    "label": "联通云盘",
+    "group": "网盘",
+    "keywords": "联通云盘 沃云盘",
+    "asset": "assets/account_icons/cloud-unicom.png",
+    "source": "https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0a1606639b77e4e428f1ddedec78024e26d58bd07",
+    "sourcePage": "https://pan.wo.cn",
+    "sha256": "a8b955e62f78d4a38d15ea38d81ead160ff796f148ed991e4f84edcdc44766a5",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-unicom.png"
+  },
+  {
+    "id": "cloud:115",
+    "label": "115网盘",
+    "group": "网盘",
+    "keywords": "115网盘 115",
+    "asset": "assets/account_icons/cloud-115.png",
+    "source": "https://115.com/favicon.ico",
+    "sourcePage": "https://115.com",
+    "sha256": "97bd12082ffa1e03c57da604afed457de8b13c966e511be8df19cead5d7be340",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-115.png"
+  },
+  {
+    "id": "cloud:xunlei",
+    "label": "迅雷云盘",
+    "group": "网盘",
+    "keywords": "迅雷云盘 迅雷网盘 Xunlei",
+    "asset": "assets/account_icons/cloud-xunlei.png",
+    "source": "https://pan.xunlei.com/icon.png",
+    "sourcePage": "https://pan.xunlei.com",
+    "sha256": "e092ee6926224770d1f79b78e1662ccd4d2cba2b1a3eb45bc0c0984628034cb6",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-xunlei.png"
+  },
+  {
+    "id": "cloud:123",
+    "label": "123云盘",
+    "group": "网盘",
+    "keywords": "123云盘 123网盘",
+    "asset": "assets/account_icons/cloud-123.png",
+    "source": "https://statics.123957.com/static-by-custom/favicon.ico",
+    "sourcePage": "https://www.123pan.com",
+    "sha256": "2b200b82d15b4cc3a5535b71619be576e05478680acaa2d2bb307ad8076dcb10",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-123.png"
+  },
+  {
+    "id": "cloud:nutstore",
+    "label": "坚果云",
+    "group": "网盘",
+    "keywords": "坚果云 Nutstore",
+    "asset": "assets/account_icons/cloud-nutstore.png",
+    "source": "https://www.jianguoyun.com/favicon.ico",
+    "sourcePage": "https://www.jianguoyun.com",
+    "sha256": "76ff3b2deec6f806fa0183c3556a3a6eb178e1f2529c1d86c4946a8bdcf0bcbb",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-nutstore.png"
+  },
+  {
+    "id": "cloud:weiyun",
+    "label": "腾讯微云",
+    "group": "网盘",
+    "keywords": "腾讯微云 微云 Weiyun",
+    "asset": "assets/account_icons/cloud-weiyun.png",
+    "source": "https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000",
+    "sourcePage": "https://www.weiyun.com",
+    "sha256": "4834d2d75263875f39379279bbcc34240f484b42a3fb320d9fc247185662a126",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-weiyun.png"
+  },
+  {
+    "id": "cloud:lanzou",
+    "label": "蓝奏云",
+    "group": "网盘",
+    "keywords": "蓝奏云 蓝奏网盘 Lanzou",
+    "asset": "assets/account_icons/cloud-lanzou.png",
+    "source": "https://www.lanzou.com/favicon.ico",
+    "sourcePage": "https://www.lanzou.com",
+    "sha256": "5cc829379d18cc975a7cd777fdf092c1b7b024dafd01d8a9a90bd25d70a7f903",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-lanzou.png"
+  },
+  {
+    "id": "cloud:chengtong",
+    "label": "城通网盘",
+    "group": "网盘",
+    "keywords": "城通网盘 Ctfile",
+    "asset": "assets/account_icons/cloud-chengtong.png",
+    "source": "https://www.ctfile.com/favicon/apple-icon-180x180.png",
+    "sourcePage": "https://www.ctfile.com",
+    "sha256": "bf233a51dea5396280224690efb11f88f4983168a7deb5e788dc6287d6593ba0",
+    "url": "https://leetpy.github.io/pirate-ship-icons/cloud-chengtong.png"
+  }
+]

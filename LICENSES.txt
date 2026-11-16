@@ -1,0 +1,86 @@
+Account icon library: third-party notices
+
+The logos identify account providers. Brand names and marks remain the property
+of their respective owners; inclusion does not imply endorsement.
+
+Bank artwork: @icongo/bl 1.2.0, square/Rect variants.
+https://github.com/icongo/bank-logos
+https://github.com/jaywcjlove/icongo
+Copyright (c) 2022 IconGo. MIT License (below).
+
+ChatGPT/OpenAI mark: @lobehub/icons-static-svg 1.101.0, openai.svg.
+https://github.com/lobehub/lobe-icons
+Copyright (c) 2023 LobeHub. MIT License (below).
+
+Google mark: SVG Logos by Gil Barbara, distributed through @iconify-json/logos
+1.2.18, google-icon. CC0-1.0.
+https://github.com/gilbarbara/logos
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Apple, Huawei, Xiaomi, vivo, OPPO, Honor, Samsung and OnePlus marks:
+Simple Icons Collaborators, @iconify-json/simple-icons 1.2.101 (collection
+16.36.0), CC0-1.0. Each mark was rendered in its brand color on a square tile.
+https://github.com/simple-icons/simple-icons
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Blizzard Battle.net mark: Font Awesome Free 6.7.2, battle-net, by Fonticons, Inc.
+and Dave Gandy, distributed through @iconify-json/fa6-brands. CC BY 4.0.
+Adaptation: blue color, white tile and PNG rasterization.
+https://fontawesome.com/icons/battle-net?f=brands
+https://creativecommons.org/licenses/by/4.0/
+
+NetEase mark: official NetEase Games favicon, retrieved 2026-10-29 from
+https://www.neteasegames.com/favicon.ico and converted from ICO to PNG.
+Copyright and trademark belong to NetEase. Used solely to identify NetEase
+accounts; no open-source license is asserted for this brand artwork.
+
+UGREEN Cloud, TP-Link and 360 marks: official brand assets, retrieved 2026-10-30.
+https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/0b10e42155b344547ae58ed286ade60a17d1725be (unchanged 512x512 PNG)
+UGREEN NAS / 绿联云 Android com.ugreen.pro v1.20.12, verified 2026-10-30
+Listing: https://app.mi.com/details?id=com.ugreen.pro
+https://static.tp-link.com/assets/images/icon/favicon-152px.png (unchanged PNG)
+https://p5.ssl.qhimg.com/d/inn/d265529da7c1/logo.png (360 account-center emblem,
+96x96 crop at x=0,y=56; full original retained in tool/icon_sources/360-account.png)
+Copyright and trademarks belong to the respective brands. Used to identify
+account providers; no open-source license is asserted for these three marks.
+
+Generated runtime PNGs are accompanied by sources.json, which records every
+stable ID, source and asset path. Runtime images are bundled locally; no
+account data is transmitted to any icon provider.
+
+MIT License (IconGo and LobeHub artwork above)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Government-service app artwork (bundled unchanged, account identification only):
+鄂汇办 Android v4.4.1
+https://app.mi.com/details?id=cn.cty.hbzw
+https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/05e6194632f4943ee02551a814c7c3f05cee70889
+个人所得税 Android v2.3.5
+https://app.mi.com/details?id=cn.gov.tax.its
+https://file.market.xiaomi.com/thumbnail/PNG/l512/AppStore/06a704a0c2334cd623496ec95ee6fb6018041d12e
+Copyright and marks remain with their respective owners; no open-source license is asserted.
+
+Cloud-drive artwork: official website favicons and official app-store icons.
+Baidu Netdisk, Alipan, Quark, Tianyi, China Mobile, China Unicom, 115, Xunlei,
+123 Cloud, Nutstore, Weiyun, Lanzou and Ctfile. Original sources and SHA-256
+checksums are recorded in sources.json and tool/cloud_icons.json.
+ICO sources are converted to PNG; PNG artwork is bundled without modification.
+Copyright and trademarks belong to the respective providers; these images are
+used solely for account identification, with no open-source license asserted.
