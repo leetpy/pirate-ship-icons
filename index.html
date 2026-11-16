@@ -3,107 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f5fa">
-  <meta name="description" content="Pirate Ship 图标库">
+  <meta name="theme-color" content="#f6f7fb">
   <title>图标库 · Pirate Ship</title>
   <style>
     :root {
       color-scheme: light;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f3f5fa;
+      background: #f6f7fb;
       color: #17223d;
       font-synthesis: none;
     }
-
     * { box-sizing: border-box; }
     body { margin: 0; min-inline-size: 280px; }
-    button, input { font: inherit; }
+    input { font: inherit; }
     a { color: inherit; }
-
-    .shell { inline-size: min(100% - 40px, 1120px); margin-inline: auto; }
-    .site-header { padding-block: clamp(28px, 6vw, 64px) 32px; }
-    .brand { display: flex; align-items: center; gap: 14px; }
-    .brand-mark {
-      display: grid; place-items: center; inline-size: 44px; block-size: 44px;
-      border-radius: 14px; background: #3459d8; color: #fff;
-      font-size: 15px; font-weight: 800; letter-spacing: -.06em;
+    .shell { inline-size: min(100% - 48px, 1120px); margin-inline: auto; }
+    .visually-hidden {
+      position: absolute; inline-size: 1px; block-size: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
     }
-    .brand-name { font-size: 14px; font-weight: 700; letter-spacing: .01em; }
-    h1 { margin: 36px 0 24px; font-size: clamp(32px, 5vw, 52px); letter-spacing: -.045em; line-height: 1.12; }
-    .toolbar { display: flex; align-items: end; gap: 20px; flex-wrap: wrap; }
-    .search-field { display: grid; gap: 8px; flex: 1 1 280px; max-inline-size: 520px; }
-    .search-field label { color: #626d83; font-size: 13px; font-weight: 600; }
+
+    .site-header {
+      display: flex; align-items: center; justify-content: space-between; gap: 24px;
+      padding-block: 48px 32px; border-bottom: 1px solid #dce2ed;
+    }
+    h1 { margin: 0; font-size: clamp(28px, 3vw, 36px); line-height: 1.15; letter-spacing: -.04em; }
+    .search-field { inline-size: min(100%, 340px); }
     .search-field input {
-      inline-size: 100%; min-block-size: 52px; padding-inline: 18px;
-      border: 1px solid #dbe1ec; border-radius: 14px;
+      inline-size: 100%; min-block-size: 46px; padding-inline: 16px;
+      border: 1px solid #dce2ed; border-radius: 12px;
       background: #fff; color: #17223d;
-      box-shadow: 0 2px 6px rgb(23 34 61 / 3%);
-      outline-color: #3459d8;
     }
-    .search-field input::placeholder { color: #828ba0; }
-    .count { margin: 0 0 15px; color: #626d83; font-size: 14px; white-space: nowrap; }
+    .search-field input::placeholder { color: #626d83; }
+    .search-field input:focus-visible { outline: 3px solid #3459d8; outline-offset: 2px; }
 
-    main { padding-block-end: 68px; }
-    .group { margin-block-start: 42px; }
-    .group-header { display: flex; align-items: baseline; gap: 12px; margin-block-end: 16px; }
-    .group h2 { margin: 0; font-size: 20px; letter-spacing: -.02em; }
-    .group-count { color: #798398; font-size: 13px; }
-    /* Intrinsic tracks keep the grid usable from narrow phones to wide desktops. */
-    .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 148px), 1fr)); gap: 12px; }
+    main { padding-block-end: 64px; }
+    .group { padding-block-start: 30px; }
+    .group:not([hidden]) ~ .group:not([hidden]) { margin-block-start: 34px; border-top: 1px solid #dce2ed; }
+    .group h2 { margin: 0 0 18px; font-size: 17px; line-height: 1.4; font-weight: 700; letter-spacing: -.01em; }
+    /* Auto-filled tracks keep their width when filtering leaves a short final row. */
+    .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 112px), 1fr)); gap: 14px; }
     .icon-card {
-      display: grid; justify-items: center; align-content: center; gap: 14px;
-      min-block-size: 148px; padding: 18px 10px;
-      border: 1px solid #e0e5ef; border-radius: 18px;
-      background: #fff; text-align: center; text-decoration: none;
-      box-shadow: 0 2px 5px rgb(23 34 61 / 2%);
-      transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+      display: grid; justify-items: center; align-content: start; gap: 10px;
+      min-block-size: 130px; padding: 5px 4px 8px;
+      border-radius: 14px; text-align: center; text-decoration: none;
+      transition: background-color .16s ease;
     }
-    .icon-card:hover { border-color: #c5d0f8; box-shadow: 0 8px 24px rgb(23 34 61 / 8%); transform: translateY(-2px); }
-    .icon-card:focus-visible { outline: 3px solid #3459d8; outline-offset: 3px; }
+    .icon-card:hover { background: #e9eeff; }
+    .icon-card:focus-visible { outline: 3px solid #3459d8; outline-offset: 2px; }
     .icon-card[hidden], .group[hidden] { display: none; }
-    .icon-frame { display: grid; place-items: center; inline-size: 72px; block-size: 72px; }
-    .icon-frame img { display: block; max-inline-size: 100%; max-block-size: 100%; object-fit: contain; border-radius: 14px; }
-    .icon-name { max-inline-size: 100%; font-size: 13px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+    .icon-frame {
+      display: grid; place-items: center; inline-size: 82px; block-size: 82px;
+      border: 1px solid #e0e5ef; border-radius: 18px; background: #fff;
+    }
+    .icon-frame img { display: block; max-inline-size: 68px; max-block-size: 68px; object-fit: contain; border-radius: 13px; }
+    .icon-name { max-inline-size: 100%; font-size: 13px; font-weight: 500; line-height: 1.4; overflow-wrap: anywhere; }
     .empty, .error { padding-block: 52px; color: #626d83; text-align: center; }
-    .site-footer { padding-block: 22px 34px; border-top: 1px solid #e0e5ef; color: #626d83; font-size: 13px; }
-    .site-footer a { text-underline-offset: 3px; }
 
-    @media (max-width: 520px) {
+    @media (max-width: 620px) {
       .shell { inline-size: min(100% - 32px, 1120px); }
-      .site-header { padding-block-end: 20px; }
-      h1 { margin-block: 28px 22px; }
-      .count { margin-block: 0; }
-      .group { margin-block-start: 34px; }
-      .icon-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 124px), 1fr)); gap: 10px; }
-      .icon-card { min-block-size: 132px; padding: 14px 8px; }
-      .icon-frame { inline-size: 64px; block-size: 64px; }
+      .site-header { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; padding-block: 28px 24px; }
+      .search-field { inline-size: 100%; }
+      .group { padding-block-start: 24px; }
+      .group:not([hidden]) ~ .group:not([hidden]) { margin-block-start: 24px; }
+      .icon-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 98px), 1fr)); gap: 12px 10px; }
+      .icon-card { min-block-size: 116px; }
+      .icon-frame { inline-size: 76px; block-size: 76px; }
+      .icon-frame img { max-inline-size: 62px; max-block-size: 62px; }
     }
     @media (prefers-reduced-motion: reduce) { .icon-card { transition: none; } }
   </style>
 </head>
 <body>
   <header class="site-header shell">
-    <div class="brand"><span class="brand-mark" aria-hidden="true">PS</span><span class="brand-name">Pirate Ship</span></div>
     <h1>图标库</h1>
-    <div class="toolbar">
-      <div class="search-field">
-        <label for="search">搜索图标</label>
-        <input id="search" type="search" placeholder="名称或关键词" autocomplete="off">
-      </div>
-      <p class="count" id="count" aria-live="polite"></p>
+    <div class="search-field">
+      <label class="visually-hidden" for="search">搜索图标</label>
+      <input id="search" type="search" placeholder="搜索图标" autocomplete="off">
     </div>
   </header>
   <main class="shell" id="groups" aria-label="图标分组"></main>
-  <footer class="site-footer shell"><a href="LICENSES.txt">授权与来源</a> · <a href="https://github.com/leetpy/pirate-ship-icons">GitHub</a></footer>
   <script>
     const search = document.querySelector('#search');
     const groups = document.querySelector('#groups');
-    const count = document.querySelector('#count');
-    const cards = [];
     const sections = [];
 
     function createCard(icon) {
-      // Build text nodes from the catalog so labels and keywords never become HTML.
+      // Parse catalog data into DOM nodes; never interpolate labels as HTML.
       let file;
       try { file = new URL(icon.url).pathname.split('/').at(-1); }
       catch (_) { return null; }
@@ -111,7 +97,7 @@
       const link = document.createElement('a');
       link.className = 'icon-card';
       link.href = file;
-      link.setAttribute('aria-label', `${icon.label}，打开图标`);
+      link.setAttribute('aria-label', `${icon.label}，查看原图`);
       const frame = document.createElement('span');
       frame.className = 'icon-frame';
       const image = document.createElement('img');
@@ -124,13 +110,12 @@
       name.className = 'icon-name';
       name.textContent = icon.label;
       link.append(frame, name);
-      cards.push({ element: link, text: `${icon.label} ${icon.keywords} ${icon.id}`.toLocaleLowerCase() });
-      return link;
+      return { element: link, text: `${icon.label} ${icon.keywords} ${icon.id}`.toLocaleLowerCase() };
     }
 
     function filter() {
       const terms = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
-      let total = 0;
+      let matches = 0;
       for (const section of sections) {
         let visible = 0;
         for (const card of section.cards) {
@@ -139,17 +124,16 @@
           if (match) visible++;
         }
         section.element.hidden = visible === 0;
-        section.count.textContent = String(visible);
-        total += visible;
+        matches += visible;
       }
-      count.textContent = `${total} 个图标`;
       let empty = groups.querySelector('.empty');
-      if (total === 0 && !empty) {
+      if (matches === 0 && !empty) {
         empty = document.createElement('p');
         empty.className = 'empty';
-        empty.textContent = '没有匹配的图标';
+        empty.setAttribute('role', 'status');
+        empty.textContent = '无结果';
         groups.append(empty);
-      } else if (total > 0) {
+      } else if (matches > 0) {
         empty?.remove();
       }
     }
@@ -169,34 +153,29 @@
           if (!byGroup.has(icon.group)) byGroup.set(icon.group, []);
           byGroup.get(icon.group).push(card);
         }
-        for (const [group, items] of byGroup) {
+        for (const [group, cards] of byGroup) {
           const section = document.createElement('section');
           section.className = 'group';
-          const header = document.createElement('div');
-          header.className = 'group-header';
           const title = document.createElement('h2');
           title.textContent = group;
-          const groupCount = document.createElement('span');
-          groupCount.className = 'group-count';
-          header.append(title, groupCount);
           const grid = document.createElement('div');
           grid.className = 'icon-grid';
-          grid.append(...items);
-          section.append(header, grid);
+          grid.append(...cards.map(card => card.element));
+          section.append(title, grid);
           groups.append(section);
-          sections.push({ element: section, count: groupCount,
-            cards: cards.filter(card => items.includes(card.element)) });
+          sections.push({ element: section, cards });
         }
         filter();
-      } catch (error) {
+      } catch (_) {
         const message = document.createElement('p');
         message.className = 'error';
-        message.textContent = '图标加载失败';
+        message.setAttribute('role', 'alert');
+        message.textContent = '加载失败';
         groups.append(message);
       }
     }
 
-    // Search filters the loaded catalog locally; no query is sent to a server.
+    // Filtering is local; the search text never leaves the browser.
     search.addEventListener('input', filter);
     load();
   </script>
